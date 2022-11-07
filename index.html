@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Expo Story</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="./img/logo.jpeg" alt="Logo" class="logo">
+            <div class="choose">
+                <select name="" id="scroll">
+                    <option value="2.110">2.110</option>
+                    <option value="">2.200</option>
+                    <option value="">2.220</option>
+                    <option value="">2.225</option>
+                    <option value="">2.280</option>
+                    <option value="">3.470</option>
+                    <option value="">2.210</option>
+                    <option value="">2.310</option>
+                    <option value="">2.300</option>
+                    <option value="">2.315</option>
+                    <option value="">2.305</option>
+                    <option value="">2.320</option>
+                    <option value="">3.300</option>
+                    <option value="">3.310</option>
+                    <option value="">3.620</option>
+                    <option value="">3.622</option>
+                    <option value="">3.360</option>
+                    <option value="">2.050</option>
+                    <option value="">2.250</option>
+                    <option value="">2.240</option>
+                    <option value="">2.255</option>
+                </select>
+                <input type="submit" value="add" class="addBtn">
+            </div>
+            <div class="contact">
+                <a href = "mailto: gkikvilashvili@expogeorgia.ge">Contact</a>
+            </div>
+        </header>
+        <main>
+            <div class="gridElement">
+                <div class="card">
+                    <img src="./img/2.110.jpg" alt="" class="component">
+                    <div id="qtyControl" class="qtyControl">
+                        <p class="title" id="getQty">Door: 0 pcs</p>
+                    </div>
+                    <div class="buttonDiv">
+                        <button class="getQtyminus" onclick="getQtyminus()">-</button>
+                        <button class="getQtyplus" onclick="getQtyplus()">+</button>
+                    </div>
+                    <div class="priceControl">
+                        <p class="price">Price:</p>
+                        <input type="number" value="0" class="getPrice" id="getPrice">
+                        <p class="euro">Euro</p>
+                    </div>
+                    <button class="addParts">Cal</button>
+                    <div class="spearPartsDiv" id="spearPartsDiv">
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/2.200.jpg" alt="" class="component">
+                    <div id="qtyControl" class="qtyControl">
+                        <p class="title" id="getQty">Door: 0 pcs</p>
+                    </div>
+                    <div class="buttonDiv">
+                        <button class="getQtyminus" onclick="getQtyminus()">-</button>
+                        <button class="getQtyplus" onclick="getQtyplus()">+</button>
+                    </div>
+                    <div class="priceControl">
+                        <p class="price">Price:</p>
+                        <input type="number" value="0" class="getPrice" id="getPrice">
+                        <p class="euro">Euro</p>
+                    </div>
+                    <button class="addParts">Cal</button>
+                    <div class="spearPartsDiv" id="spearPartsDiv">
+                    </div>
+                </div><div class="card">
+                    <img src="./img/2.110.jpg" alt="" class="component">
+                    <div id="qtyControl" class="qtyControl">
+                        <p class="title" id="getQty">Door: 0 pcs</p>
+                    </div>
+                    <div class="buttonDiv">
+                        <button class="getQtyminus" onclick="getQtyminus()">-</button>
+                        <button class="getQtyplus" onclick="getQtyplus()">+</button>
+                    </div>
+                    <div class="priceControl">
+                        <p class="price">Price:</p>
+                        <input type="number" value="0" class="getPrice" id="getPrice">
+                        <p class="euro">Euro</p>
+                    </div>
+                    <button class="addParts">Cal</button>
+                    <div class="spearPartsDiv" id="spearPartsDiv">
+                    </div>
+                </div><div class="card">
+                    <img src="./img/2.110.jpg" alt="" class="component">
+                    <div id="qtyControl" class="qtyControl">
+                        <p class="title" id="getQty">Door: 0 pcs</p>
+                    </div>
+                    <div class="buttonDiv">
+                        <button class="getQtyminus" onclick="getQtyminus()">-</button>
+                        <button class="getQtyplus" onclick="getQtyplus()">+</button>
+                    </div>
+                    <div class="priceControl">
+                        <p class="price">Price:</p>
+                        <input type="number" value="0" class="getPrice" id="getPrice">
+                        <p class="euro">Euro</p>
+                    </div>
+                    <button class="addParts">Cal</button>
+                    <div class="spearPartsDiv" id="spearPartsDiv">
+                    </div>
+                </div><div class="card">
+                    <img src="./img/2.110.jpg" alt="" class="component">
+                    <div id="qtyControl" class="qtyControl">
+                        <p class="title" id="getQty">Door: 0 pcs</p>
+                    </div>
+                    <div class="buttonDiv">
+                        <button class="getQtyminus" onclick="getQtyminus()">-</button>
+                        <button class="getQtyplus" onclick="getQtyplus()">+</button>
+                    </div>
+                    <div class="priceControl">
+                        <p class="price">Price:</p>
+                        <input type="number" value="0" class="getPrice" id="getPrice">
+                        <p class="euro">Euro</p>
+                    </div>
+                    <button class="addParts">Cal</button>
+                    <div class="spearPartsDiv" id="spearPartsDiv">
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/2.110.jpg" alt="" class="component">
+                    <div id="qtyControl" class="qtyControl">
+                        <p class="title" id="getQty">Door: 0 pcs</p>
+                    </div>
+                    <div class="buttonDiv">
+                        <button class="getQtyminus" onclick="getQtyminus()">-</button>
+                        <button class="getQtyplus" onclick="getQtyplus()">+</button>
+                    </div>
+                    <div class="priceControl">
+                        <p class="price">Price:</p>
+                        <input type="number" value="0" class="getPrice" id="getPrice">
+                        <p class="euro">Euro</p>
+                    </div>
+                    <button class="addParts">Cal</button>
+                    <div class="spearPartsDiv" id="spearPartsDiv">
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/2.110.jpg" alt="" class="component">
+                    <div id="qtyControl" class="qtyControl">
+                        <p class="title" id="getQty">Door: 0 pcs</p>
+                    </div>
+                    <div class="buttonDiv">
+                        <button class="getQtyminus" onclick="getQtyminus()">-</button>
+                        <button class="getQtyplus" onclick="getQtyplus()">+</button>
+                    </div>
+                    <div class="priceControl">
+                        <p class="price">Price:</p>
+                        <input type="number" value="0" class="getPrice" id="getPrice">
+                        <p class="euro">Euro</p>
+                    </div>
+                    <button class="addParts">Cal</button>
+                    <div class="spearPartsDiv" id="spearPartsDiv">
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/2.110.jpg" alt="" class="component">
+                    <div id="qtyControl" class="qtyControl">
+                        <p class="title" id="getQty">Door: 0 pcs</p>
+                    </div>
+                    <div class="buttonDiv">
+                        <button class="getQtyminus" onclick="getQtyminus()">-</button>
+                        <button class="getQtyplus" onclick="getQtyplus()">+</button>
+                    </div>
+                    <div class="priceControl">
+                        <p class="price">Price:</p>
+                        <input type="number" value="0" class="getPrice" id="getPrice">
+                        <p class="euro">Euro</p>
+                    </div>
+                    <button class="addParts">Cal</button>
+                    <div class="spearPartsDiv" id="spearPartsDiv">
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/2.110.jpg" alt="" class="component">
+                    <div id="qtyControl" class="qtyControl">
+                        <p class="title" id="getQty">Door: 0 pcs</p>
+                    </div>
+                    <div class="buttonDiv">
+                        <button class="getQtyminus" onclick="getQtyminus()">-</button>
+                        <button class="getQtyplus" onclick="getQtyplus()">+</button>
+                    </div>
+                    <div class="priceControl">
+                        <p class="price">Price:</p>
+                        <input type="number" value="0" class="getPrice" id="getPrice">
+                        <p class="euro">Euro</p>
+                    </div>
+                    <button class="addParts">Cal</button>
+                    <div class="spearPartsDiv" id="spearPartsDiv">
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/2.110.jpg" alt="" class="component">
+                    <div id="qtyControl" class="qtyControl">
+                        <p class="title" id="getQty">Door: 0 pcs</p>
+                    </div>
+                    <div class="buttonDiv">
+                        <button class="getQtyminus" onclick="getQtyminus()">-</button>
+                        <button class="getQtyplus" onclick="getQtyplus()">+</button>
+                    </div>
+                    <div class="priceControl">
+                        <p class="price">Price:</p>
+                        <input type="number" value="0" class="getPrice" id="getPrice">
+                        <p class="euro">Euro</p>
+                    </div>
+                    <button class="addParts">Cal</button>
+                    <div class="spearPartsDiv" id="spearPartsDiv">
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/2.110.jpg" alt="" class="component">
+                    <div id="qtyControl" class="qtyControl">
+                        <p class="title" id="getQty">Door: 0 pcs</p>
+                    </div>
+                    <div class="buttonDiv">
+                        <button class="getQtyminus" onclick="getQtyminus()">-</button>
+                        <button class="getQtyplus" onclick="getQtyplus()">+</button>
+                    </div>
+                    <div class="priceControl">
+                        <p class="price">Price:</p>
+                        <input type="number" value="0" class="getPrice" id="getPrice">
+                        <p class="euro">Euro</p>
+                    </div>
+                    <button class="addParts">Cal</button>
+                    <div class="spearPartsDiv" id="spearPartsDiv">
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/2.110.jpg" alt="" class="component">
+                    <div id="qtyControl" class="qtyControl">
+                        <p class="title" id="getQty">Door: 0 pcs</p>
+                    </div>
+                    <div class="buttonDiv">
+                        <button class="getQtyminus" onclick="getQtyminus()">-</button>
+                        <button class="getQtyplus" onclick="getQtyplus()">+</button>
+                    </div>
+                    <div class="priceControl">
+                        <p class="price">Price:</p>
+                        <input type="number" value="0" class="getPrice" id="getPrice">
+                        <p class="euro">Euro</p>
+                    </div>
+                    <button class="addParts">Cal</button>
+                    <div class="spearPartsDiv" id="spearPartsDiv">
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
